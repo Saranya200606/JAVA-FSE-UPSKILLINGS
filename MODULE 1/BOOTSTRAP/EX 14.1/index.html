@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Utilities</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container mt-5">
+
+    <!-- Always hidden -->
+    <div class="d-none bg-danger text-white p-3 mb-3">
+        This is always hidden (d-none)
+    </div>
+
+    <!-- Visible only on md and above -->
+    <div class="d-none d-md-block bg-primary text-white p-3 mb-3">
+        Visible on tablets and larger (d-md-block)
+    </div>
+
+    <!-- Flex on lg and above -->
+    <div class="d-none d-lg-flex bg-success text-white p-3 justify-content-between">
+        <span>Left Item</span>
+        <span>Right Item (visible as flex on large screens)</span>
+    </div>
+
+</div>
+
+</body>
+</html>
