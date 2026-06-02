@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap JS Plugins Demo</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h1 class="text-primary">Bootstrap JS Plugins Enabled</h1>
+
+        <!-- Example: Alert -->
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            This is a Bootstrap alert with JavaScript support.
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+
+        <!-- Example: Button -->
+        <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#demoModal">
+            Open Modal
+        </button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="demoModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Demo Modal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    Bootstrap JavaScript plugin is working!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
